@@ -28,6 +28,11 @@
   <packaging>war</packaging>
   <name>Jasig CAS Web Application</name>
   <dependencies>
+<!--    <dependency>-->
+<!--      <groupId>org.jasig.cas</groupId>-->
+<!--      <artifactId>cas-server-support-jdbc</artifactId>-->
+<!--      <version>${project.version}</version>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>org.jasig.cas</groupId>
       <artifactId>cas-server-webapp-support</artifactId>
