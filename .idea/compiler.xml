@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$MAVEN_REPOSITORY$/org/aspectj/aspectjtools/1.6.11/aspectjtools-1.6.11.jar" />
+    <option name="delegateToJavac" value="true" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cas-server-support-trusted" />
+        <module name="cas-server-support-pac4j" />
+        <module name="cas-server-support-oauth" />
+        <module name="cas-management-webapp" />
+        <module name="cas-server-integration-ehcache" />
+        <module name="cas-server-integration-memcached" />
+        <module name="cas-server-support-openid" />
+        <module name="cas-server-support-ldap" />
+        <module name="cas-server-support-jdbc" />
+        <module name="cas-server-webapp-support" />
+        <module name="cas-server-integration-restlet" />
+        <module name="cas-server-support-legacy" />
+        <module name="cas-server-support-saml" />
+        <module name="cas-server-extension-clearpass" />
+        <module name="cas-server-support-x509" />
+        <module name="cas-server-webapp" />
+        <module name="cas-server-core" />
+        <module name="cas-server-support-generic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cas-management-webapp" target="1.6" />
+      <module name="cas-server" target="1.6" />
+      <module name="cas-server-core" target="1.6" />
+      <module name="cas-server-extension-clearpass" target="1.6" />
+      <module name="cas-server-integration-ehcache" target="1.6" />
+      <module name="cas-server-integration-jboss" target="1.6" />
+      <module name="cas-server-integration-memcached" target="1.6" />
+      <module name="cas-server-integration-restlet" target="1.6" />
+      <module name="cas-server-support-generic" target="1.6" />
+      <module name="cas-server-support-jdbc" target="1.6" />
+      <module name="cas-server-support-ldap" target="1.6" />
+      <module name="cas-server-support-legacy" target="1.6" />
+      <module name="cas-server-support-oauth" target="1.6" />
+      <module name="cas-server-support-openid" target="1.6" />
+      <module name="cas-server-support-pac4j" target="1.6" />
+      <module name="cas-server-support-radius" target="1.6" />
+      <module name="cas-server-support-saml" target="1.6" />
+      <module name="cas-server-support-spnego" target="1.6" />
+      <module name="cas-server-support-trusted" target="1.6" />
+      <module name="cas-server-support-x509" target="1.6" />
+      <module name="cas-server-uber-webapp" target="1.6" />
+      <module name="cas-server-webapp" target="1.6" />
+      <module name="cas-server-webapp-support" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
